@@ -21,8 +21,8 @@ exports.handler = async () => {
 
     return {
       ...corgi,
-      alt: photo?.alt_description,
-      credit: photo?.user?.name,
+      alt: photo.alt_description,
+      credit: photo.user.name,
       url: `${photo.urls.raw}&auto=format&fit=crop&w=300&h=300&q=80&crop=entropy`,
     }
   })
