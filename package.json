@@ -1,8 +1,8 @@
 {
-  "name": "serverless-functions",
+  "name": "boop-dem-corgis",
   "version": "0.0.1",
   "main": "index.js",
-  "author": "Jason Lengstorf <jason@lengstorf.com> (https://jason.af)",
+  "author": "Austin Burgard",
   "license": "MIT",
   "scripts": {
     "dev": "serve public"
